@@ -20,12 +20,29 @@
   text-align: center;
 }
 /* 回答はここに書いてね */
-.q6--around.is-1 {
-  text-align: center;
-  line-height: 200px;
+.q6--around.is-table {
+  display: table;
 }
 
-.text2 {
+.q6--around.is-table .q6__box {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6--around.is-table .q6__box__text2 {
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.q6--around.is-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q6__box__text2 {
   background-color: #fff;
   padding: 10px;
 }

@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.q3__list {
   margin: 0 auto;
   text-align: center;
   width: 100%;
   table-layout: fixed;
 }
 /* 回答はここに書いてね */
-th {
+.q3__list th {
   background-color: #2244aa;
   padding-top: 10px;
   color: #fff;
@@ -16,20 +16,15 @@ th {
   line-height: 26px;
 }
 
-td {
+.q3__list tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tr:nth-child(even) td {
-  background-color: #fff;
-}
-
-th,td {
+.q3__list th, .q3__list td {
   border: 1px solid #dedede;
   padding: 10px;
 }
 
-tr:last-child {
+.q3__list > tbody > tr:last-child {
   border-top: 2px dashed #000;
 }
-

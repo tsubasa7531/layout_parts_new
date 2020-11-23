@@ -11,13 +11,9 @@
   transition: all .5s;
 }
 
-.q8__inner__scale:hover {
+.q8__inner:hover .q8__inner__scale {
   transition: all .5s;
   transform: scale(1.5,1.5);
-}
-
-.q8__inner__scale {
-  transition: all .5s;
 }
 /* 回答はここに書いてね */
 .q8__inner:hover .q8__inner__hover {

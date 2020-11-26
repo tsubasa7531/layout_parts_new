@@ -8,12 +8,14 @@
   height: 333px;
   cursor: pointer;
   margin: 0 auto;
-  transition: all .5s;
+}
+
+.q8__inner__scale {
+  transition: 0.5s;
 }
 
 .q8__inner:hover .q8__inner__scale {
-  transition: all .5s;
-  transform: scale(1.5,1.5);
+  transform: scale(1.5);
 }
 /* 回答はここに書いてね */
 .q8__inner:hover .q8__inner__hover {

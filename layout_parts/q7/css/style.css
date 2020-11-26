@@ -7,18 +7,18 @@
   display: block;
 }
 /* 回答はここに書いてね */
-.q7--float.is-head .q7__box.is-float {
+.q7--float .q7__box {
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-.q7 .q7__box.is-float {
+.q7 .q7__box.is-text {
   width: 225px;
 }
 
-.q7--float.is-head .q7__box.is-float:first-child {
+.q7--float.is-float .q7__box.is-text:first-child {
   margin: 0;
 }
 
@@ -27,7 +27,7 @@
   table-layout: fixed;
 }
 
-.q7--table.is-cell .q7__box.is-table { 
+.q7--table .q7__box { 
   display: table-cell;
   vertical-align: middle;
   padding-left: 50px;
@@ -55,7 +55,7 @@
   font-size: 0;
 }
 
-.q7--flex.is-cell .q7__inner.is-cell {
+.q7--flex .q7__inner {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -72,7 +72,7 @@
 }
 
 
-.q7--margin.is-content .q7__box.is-left {
+.q7--margin .q7__box {
   display: inline-block;
   width: 300px;
 }

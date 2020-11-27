@@ -7,7 +7,7 @@
   display: block;
 }
 /* 回答はここに書いてね */
-.q7--float .q7__box {
+.q7--float.is-primary .q7__box.is-text {
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
@@ -18,27 +18,27 @@
   width: 225px;
 }
 
-.q7--float.is-float .q7__box.is-text:first-child {
+.q7--float.is-primary .q7__box.is-text:first-child {
   margin: 0;
 }
 
-.q7--table .is-cell {
+.q7--table .is-primary {
   display: table;
   table-layout: fixed;
 }
 
-.q7--table .q7__box { 
+.q7--table.is-primary .q7__box.is-tertiary { 
   display: table-cell;
   vertical-align: middle;
   padding-left: 50px;
   width: 225px;
 } 
 
-.q7--table.is-cell .q7__box.is-table:first-child {
+.q7--table.is-primary .q7__box.is-tertiary:first-child {
   padding-left: 0;
 }
 
-.q7__box.is-block {
+.q7__box.is-article {
   display: inline-block;
   width: 225px;
   vertical-align: middle;
@@ -47,37 +47,36 @@
   font-size: 16px;
 }
 
-.q7__box.is-block:first-child {
+.q7__box.is-article:first-child {
   margin-left: 0;
 }
 
-.q7--inlineblock.is-block .q7__inner.is-block {
+.q7--inlineblock.is-section .q7__inner.is-content {
   font-size: 0;
 }
 
-.q7--flex .q7__inner {
+.q7--flex.is-primary .q7__inner.is-secondary {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
 }
 
-.q7--flex.is-cell .q7__box.is-cell {
+.q7--flex.is-primary .q7__box.is-note {
   font-size: 16px;
-  box-sizing: border-box;
   vertical-align: middle;
+  box-sizing: border-box;
 }
 
-.q7__box.is-cell {
+.q7__box.is-note {
   width: 225px;
 }
 
-
-.q7--margin .q7__box {
+.q7--margin.is-primary .q7__box.is-left {
   display: inline-block;
   width: 300px;
 }
 
-.q7--margin.is-content .q7__box.is-right {
+.q7--margin.is-primary .q7__box.is-right {
   display: inline-block;
   box-sizing: border-box;
   margin-left: -300px;
@@ -86,15 +85,15 @@
   vertical-align: top;
 }
 
-.q7--margin.is-content .q7__box__text.is-content {
+.q7--margin.is-primary .q7__box__text.is-detail {
   font-size: 16px;
 }
 
-.q7--margin.is-content .q7__inner.is-full.is-content {
+.q7--margin.is-primary .q7__inner.is-full.is-secondary {
   font-size: 0;
 }
 
-.q7__inner.is-full.is-content {
+.q7__inner.is-full.is-secondary {
   width: 100%;
   box-sizing: border-box;
 }
